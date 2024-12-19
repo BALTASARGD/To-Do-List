@@ -1,5 +1,9 @@
-const inputBox = document.getElementById("input-box") as HTMLInputElement | null;
-const listContainer = document.getElementById("list-container") as HTMLElement | null;
+const inputBox = document.getElementById(
+  "input-box"
+) as HTMLInputElement | null;
+const listContainer = document.getElementById(
+  "list-container"
+) as HTMLElement | null;
 
 function addTask(): void {
   if (!inputBox || !listContainer) return;
