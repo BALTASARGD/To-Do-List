@@ -53,7 +53,10 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 
 build/Release
+# ...existing code...
 
+# Ignorar archivo de configuración de TypeScript
+tsconfig.json
 # Dependency directories
 
 node_modules/
