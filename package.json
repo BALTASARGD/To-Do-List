@@ -7,9 +7,13 @@
     "bun-watch": "bun run --watch script.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/jsdom": "^21.1.7"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jsdom": "^25.0.1"
   }
 }
