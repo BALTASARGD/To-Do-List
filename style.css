@@ -126,3 +126,47 @@ footer {
   font-size: 14px;
   font-weight: bold;
 }
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  .todo-app {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .todo-app h2 {
+    font-size: 30px;
+  }
+
+  .row {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  ul li {
+    font-size: 14px;
+    padding: 10px 8px 10px 40px;
+  }
+
+  ul li::before {
+    height: 20px;
+    width: 20px;
+    top: 10px;
+    left: 5px;
+  }
+
+  ul li span {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
